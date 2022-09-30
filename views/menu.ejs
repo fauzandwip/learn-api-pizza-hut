@@ -1,0 +1,31 @@
+<body>
+	<!-- Title -->
+	<div class="container">
+		<div class="row">
+			<div class="col mt-3"><h1>All Menu</h1></div>
+		</div>
+	</div>
+
+	<!-- Menu -->
+	<div class="container">
+		<div class="row">
+			<% menu.forEach(mn => { %>
+			<div class="col md-4">
+				<div class="card mb-3" style="width: 18rem">
+					<img
+						src="img/pizza/<%= mn.gambar %> "
+						class="card-img-top"
+						alt="..."
+					/>
+					<div class="card-body">
+						<h5 class="card-title"><%= mn.nama %></h5>
+						<p class="card-text"><%= mn.deskripsi %></p>
+						<h5 class="card-title"><%= mn.harga %></h5>
+						<a href="#" class="btn btn-primary">Order Now!</a>
+					</div>
+				</div>
+			</div>
+			<% }) %>
+		</div>
+	</div>
+</body>
