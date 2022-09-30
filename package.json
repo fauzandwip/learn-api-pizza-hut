@@ -1,0 +1,13 @@
+{
+	"name": "api-hut",
+	"version": "1.0.0",
+	"description": "make website with api pizza-hut",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
